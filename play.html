@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="play.css">
+    <script src="play.js"></script>
+</head>
+<body>
+    <h1><span style = "color: red;" class = "Fahr">Fahrenheight</span> to <span style="color: blue;">Celsius</span> Converter - and Vice Versa!</h1>
+
+    <form name="Convert" onsubmit= "convert(); return false;">
+    
+        <label for="degrees">Enter the starting number of degrees here:
+        </label>
+        <input type="text" name="degrees">
+        <br>
+        <label for="ForC">Would you like the starting value to be F or C?</label>
+        <input type="radio" name="ForC" value="F">F
+        <input type="radio" name="ForC" value="C">C<br>
+        <br>
+        <input type="submit" value="Convert!">
+    
+    
+    
+    </form>
+
+    <div id="output">
+
+
+    </div>
+    
+</body>
+</html>

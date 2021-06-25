@@ -1,0 +1,40 @@
+body {
+
+    text-align: center;
+    background-image: url(https://news.illinoisstate.edu/files/2016/04/8TxL8bkTp.jpg);
+
+}
+
+form, div {
+    background-color: rgba(255, 255, 255, 0.924);
+}
+
+
+label, input {
+
+    font-size: 24px;
+}
+
+input[type = "submit"] {
+    color: green;
+
+    margin-left: 40px;
+}
+
+input[type = "submit"]:hover {
+    background-color: cyan;
+    padding: 14px;
+    
+}
+
+input[type = "radio"] {
+    font-size: larger;
+}
+
+#output {
+
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+
+}
